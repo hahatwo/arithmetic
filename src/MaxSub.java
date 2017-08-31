@@ -17,7 +17,7 @@ public class MaxSub {
 		int[][] globalMax = new int[k + 1][nums.length + 1];
 		
 		/**
-		 * 最优子结构 localMax[i][j] = Max(localMax[i][j - 1])
+		 * 最优子结构 localMax[i][j] = Max(localMax[i][j - 1] + )
 		 * 
 		 * 
 		 */
