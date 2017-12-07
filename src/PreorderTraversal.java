@@ -5,6 +5,7 @@ import java.util.List;
 public class PreorderTraversal {
 
 	/*
+	 * 给出一棵二叉树，返回其节点值的前序遍历。
      * @param root: A Tree
      * @return: Preorder in ArrayList which contains node values.
      */
