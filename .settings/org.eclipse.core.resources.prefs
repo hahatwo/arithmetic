@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 encoding/<project>=GBK
+=======
+encoding//src/FindMedianSortedArrays.java=UTF-8
+>>>>>>> ccc3422642ac676d613eb258bb62d69dcb990d82
