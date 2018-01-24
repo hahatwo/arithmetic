@@ -16,14 +16,14 @@ public class LowestCommonAncestor {
 		if(root == A || root == B) {
 			return root;
 		}
-		root.left = lowestCommonAncestor(root.left, A, B);
-		root.right = lowestCommonAncestor(root.right, A, B);
-		if(root.left != null && root.right != null) {
+		TreeNode left = lowestCommonAncestor(root.left, A, B);
+		TreeNode right = lowestCommonAncestor(root.right, A, B);
+		if(left != null && right != null) {
 			return root;
-		} else if(root.left != null) {
-			return root.left;
-		} else if(root.right != null) {
-			return root.right;
+		} else if(left != null) {
+			return left;
+		} else if(right != null) {
+			return right;
 		} 
 		return null;
 	}
