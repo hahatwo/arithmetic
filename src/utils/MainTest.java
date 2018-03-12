@@ -61,7 +61,7 @@ public class MainTest {
 		//String target = "adb";
 		//solution.minWindow(source, target);
 		
-		uglySolution s = new uglySolution();
+		/**uglySolution s = new uglySolution();
 		
 		List<Integer> nums = new ArrayList<Integer>();
 		nums.add(4);
@@ -71,7 +71,12 @@ public class MainTest {
 		nums.add(3);
 		System.out.println(nums);
 		s.recoverRotatedSortedArray(nums);
-		System.out.println(nums);
+		System.out.println(nums);**/
+		
+		//int a[] = {49, 38, 65, 97, 76, 13, 27, 49, 55, 4}; 
+		//ShellSort shell = new ShellSort();
+		//shell.shellSort(a);
+		InitOrder init = new InitOrder();
 	}
 
 	/**
